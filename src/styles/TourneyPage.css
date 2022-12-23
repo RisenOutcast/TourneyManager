@@ -1,0 +1,38 @@
+.tourneyContainer {
+    width: 100%;
+    background-color: rgb(167, 16, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100rem;
+    margin-top: -2rem;
+    color: whitesmoke;
+}
+
+.tourneyContainer h1 {
+    padding-top: 5rem;
+}
+
+.tourneyContainer img {
+    width: 5rem;
+}
+
+.tourneyContainer .tourneyBox {
+    width: 60%;
+    margin: 2rem;
+    background-color: rgb(32, 32, 32);
+    border-radius: 1rem;
+}
+
+.tourneyContainer .tourneyBox table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tourneyContainer td, .tourneyContainer th {
+    padding: 1rem;
+    width: 15rem;
+}

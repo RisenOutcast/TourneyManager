@@ -1,0 +1,55 @@
+header {
+    position: sticky;
+    top: 0;
+    color: crimson;
+    background-color: crimson;
+    border-bottom: 0.1rem solid rgb(255, 255, 255);
+    height: 100%;
+}
+
+nav h2 
+{
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    max-width: 30rem;
+}
+
+nav ul li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+nav ul li a {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-family: "Fira Code";
+    text-align: center;
+    width: max-content;
+    background-color: rgb(175, 16, 48);
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    list-style-type: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(106, 106, 106, 0.322);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    white-space: nowrap;
+}

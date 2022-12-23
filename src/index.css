@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(10, 10, 10);
+  font-family: "Fira Code", monospace;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.gamesListContainer {
+  width: 100%;
+  background-color: rgb(167, 16, 46);
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100rem;
+  margin-top: -2rem;
+}
+
+.gamesListContainer h1 {
+  text-align: center;
+  padding-top: 2rem;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+.gamesList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.roundBoxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.logo {
+  width: 5rem;
+  height: 100%;
+  -webkit-filter: drop-shadow(0rem 0rem 0.2rem rgba(255, 255, 255, 0.60));
+  filter: drop-shadow(0rem 0rem 0.2rem rgba(255, 255, 255, 0.60));
+  padding-top: 5rem;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

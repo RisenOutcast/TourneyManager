@@ -1,0 +1,121 @@
+.adminDescription {
+    width: 90%;
+    margin: 2rem;
+    padding: 0.5rem;
+    min-height: 5rem;
+    font-family: 'Fira Code';
+}
+
+.adminDate {
+    width: 70%;
+    margin: 2rem;
+    padding: 0.5rem;
+    height: 1rem;
+    font-family: 'Fira Code';
+}
+
+.horizontallyGroupedElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.verticallyGroupedElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontallyGroupedElements p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.dateTitle {
+    margin: 2rem;
+    padding: 0.5rem;
+    width: 8rem;
+}
+
+.roundAdminGameContainer {
+    background-color: rgb(87, 0, 0);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.tourneyAdminBox{
+    width: 40rem;
+    margin: 2rem;
+    background-color: rgb(32, 32, 32);
+    border-radius: 1rem;
+}
+
+button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: crimson;
+    background-image: linear-gradient(to bottom right, crimson, rgb(45, 45, 45));
+    border-style: solid;
+    border-width: 0.01rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Fira Code";
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 3rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+  .roundAdminGameContainer i {
+    display:block;
+  }
+
+  .buttonsContainer {
+    margin-bottom: 10rem;
+    background-color: rgb(32, 32, 32);
+    padding: 2.5rem;
+    border-radius: 1rem;
+  }
+
+  .modal {
+    border-radius: 1rem;
+    background-color: rgb(60, 0, 0);
+    border-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 30rem;
+    z-index: 1;
+    position: fixed;
+    top: 40vh;
+    left: calc(50% - 15rem);
+  }
+  
+  .modal p {
+    color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+  
+  .backdrop {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.891);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+  input {
+    font-family: "Fira Code";
+    margin-left: 1rem;
+  }
