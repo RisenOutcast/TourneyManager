@@ -1,4 +1,4 @@
-# Web-Ohjelmoinnin Jatkokurssi Loppuharjoitus
+# Tourney Manager
 
 Tourney manager for locally hosted e-sport tournaments. Views for attendees and handling page for organizers.
 
